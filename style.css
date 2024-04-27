@@ -111,3 +111,60 @@ body{
     font-size: 15px;
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+
+    .card {
+      max-width: 90%;
+    }
+  
+    .search input {
+      flex: 1.5;
+      font-size: 16px;
+    }
+  
+    .weather h1 {
+      font-size: 60px;
+    }
+  
+    .weather h2 {
+      font-size: 35px;
+    }
+  
+    .col {
+      font-size: 16px;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .search input {
+      font-size: 14px;
+    }
+  
+    .weather h1 {
+      font-size: 50px;
+    }
+  
+    .weather h2 {
+      font-size: 30px;
+    }
+  
+    .col img {
+      width: 30px;
+    }
+  
+    .col {
+      font-size: 14px;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 20px;
+    }
+  }
